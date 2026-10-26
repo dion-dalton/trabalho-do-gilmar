@@ -36,10 +36,10 @@ dion:a nutricionista ainda não me respondeu pra realmente atualizar (fizemos o 
 
 ## Contribuições
 
-| Integrante |RGM| Atividade realizada |
-|---|---|
-| `[leonardo]`|`48299332`| `[produção do css e conexão efetiva com html]` |
-| `[dion]`    |`48076759`| `[produção do html, host do codigo pelo liveshare, conexão efetiva com css e deploy]`|
-| `[amauri]`  |`48317357`| `[produção do javascript]`|
-| `[daniel]`  |`47346388`| `s[produção do css e conexão efetiva com html]`|
-| `[alison]`  |`removido`| `[produção do javascript]`| 
+| Integrante | RGM | Atividade realizada |
+|---|---|---|
+| `leonardo` | `48299332` | Produção do CSS e conexão efetiva com HTML |
+| `dion` | `48076759` | Produção do HTML, host do código pelo Live Share, conexão efetiva com CSS e deploy |
+| `amauri` | `48317357` | Produção do JavaScript |
+| `daniel` | `47346388` | Produção do CSS e conexão efetiva com HTML |
+| `alison` | `removido` | Produção do JavaScript |
