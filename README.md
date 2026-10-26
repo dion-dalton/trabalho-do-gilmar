@@ -1,15 +1,15 @@
 ## Sobre
 
-[X]  desenvolvido em HTML5 semântico, CSS3 (com uso obrigatório de Flexbox) e JavaScript puro (vanilla), sem o uso de frameworks
+- [X]  desenvolvido em HTML5 semântico, CSS3 (com uso obrigatório de Flexbox) e JavaScript puro (vanilla), sem o uso de frameworks
 (React, Angular, Vue, Bootstrap, etc.).
 
-[X]   O sistema deve estar publicado e acessível em um serviço gratuito de
+- [X]   O sistema deve estar publicado e acessível em um serviço gratuito de
 hospedagem (ex.: GitHub Pages, Vercel ou Railway), com link de acesso público funcional.
 
-[X]   Dados Dinâmicos: Ausência de dados totalmente hardcoded onde fizer sentido, com
+- [X]   Dados Dinâmicos: Ausência de dados totalmente hardcoded onde fizer sentido, com
 manipulação dinâmica de dados via JavaScript (ex.: inclusão e alteração de estado na memória).
 
-[X]  Responsividade Básica: Layout adaptável que permita a navegação fluida em diferentes
+- [X]  Responsividade Básica: Layout adaptável que permita a navegação fluida em diferentes
 resoluções de tela.
 
 ## Funcionalidades
