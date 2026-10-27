@@ -4,10 +4,10 @@
 
   /* ===== CONFIGURAÇÃO: troque pelos dados reais da nutricionista ===== */
   var NUTRI = {
-    name: 'Dra. Nome da Nutricionista',
+    name: 'Dr. Rodrigo Fontes',
     specialty: 'Nutrição clínica e esportiva',
-    phone: '5511900000000',            // só números, com 55 + DDD
-    email: 'nutricionista@gmail.com',
+    phone: '552433655739',             // só números, com 55 + DDD
+    email: 'dr.rodrigofontes@gmail.com',
     photo: ''                          // ex.: 'nutricionista.jpg' (arquivo na mesma pasta)
   };
   var ESCONDER_CONTATO_ATE_CONFIGURAR = true; // some com os botões enquanto o telefone for o de exemplo
@@ -219,7 +219,7 @@
         '<p>' + comparacao + '</p>' +
         '<p>Faixa saudável para ' + num(r.altura) + ' cm: <strong>' + num(min) + ' a ' + num(max) + ' kg</strong></p>' +
       '</div>' +
-      '<div class="indicacao"><p><strong>👩‍⚕️ Indicação para você</strong></p><p>' + c.dica + '</p>' + aviso + '</div>';
+      '<div class="indicacao"><p><strong>👩⚕️ Indicação para você</strong></p><p>' + c.dica + '</p>' + aviso + '</div>';
   }
 
   function desenharHistorico() {
@@ -288,7 +288,7 @@
 
   function desenharNutri() {
     var card = $('#cartao-nutricionista');
-    var configurado = NUTRI.phone !== '5511900000000';
+    var configurado = NUTRI.phone !== '5511900000000' && NUTRI.email !== 'nutricionista@gmail.com';
     var ultimo = maisRecente();
     var msg = 'Olá, ' + NUTRI.name + '! Sou ' + usuario.nome + '.' +
       (ultimo ? ' Meu último IMC foi ' + num(ultimo.imc) + ' (' + classificar(ultimo.imc).label + ').' : '') +
@@ -296,7 +296,7 @@
 
     var foto = NUTRI.photo
       ? '<img class="nutricionista__foto" src="' + esc(NUTRI.photo) + '" alt="Foto de ' + esc(NUTRI.name) + '">'
-      : '<div class="nutricionista__foto" aria-hidden="true">👩‍⚕️</div>';
+      : '<div class="nutricionista__foto" aria-hidden="true">👩⚕️</div>';
 
     var botoes = '';
     if (configurado || !ESCONDER_CONTATO_ATE_CONFIGURAR) {
