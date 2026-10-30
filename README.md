@@ -1,4 +1,9 @@
-## Sobre
+<div align="center">
+
+  
+# Sobre
+</div>
+
 
 - [X]  desenvolvido em HTML5 semântico, CSS3 (com uso obrigatório de Flexbox) e JavaScript puro (vanilla), sem o uso de frameworks
 (React, Angular, Vue, Bootstrap, etc.).
@@ -13,29 +18,41 @@ manipulação dinâmica de dados via JavaScript (ex.: inclusão e alteração de
 - [X]  Responsividade Básica: Layout adaptável que permita a navegação fluida em diferentes
 resoluções de tela.
 
-## Funcionalidades
+- [X] Envio do readme ao professor
+
+<div align="center">
+
+<br>
+
+# Funcionalidades
+</div>
 
 - Login/cadastro com Gmail 
 - Calculadora de IMC com classificação em emojis (🔵🟢🟡🟠🔴)
 - Histórico, status de saude (✅ / ⚠️) e evolução mês a mês (📈 / 📉)
 - contato real de uma nutricionista
 
+<br>
 
-## Arquivos
+<div align="center">
+  
+# Arquivos
 
-`index.html`, `style.css` e `app.js`.
+`nutricionista.png`, `index.html`, `style.css` e `app.js`
 
+<br>
 
-## Em relação aos Dados da nutricionista
+# Em relação aos Dados do nutricionista
 
-No começo do `app.js`, temos que editar o bloco `NUTRI` (nome, telefone com 55 + DDD, e-mail e foto).
-Para a foto, coloque o arquivo na mesma pasta: `nutricionista.jpg` e use `photo: 'nutricionista.jpg'`.
-Os botões de contato só aparecem depois que o telefone de exemplo for trocado.
+Para o desenvolvimento deste projeto, nossa equipe conseguiu estabelecer contato com um nutricionista real e 
+profissional, que  autorizou a utilização de seus dados e informações no site.
 
+Ressaltamos que todas as informações apresentadas são reais e foram disponibilizadas com o consentimento e a 
+autorização do próprio profissional.
 
-dion:a nutricionista ainda não me respondeu pra realmente atualizar (fizemos o mais funcional possivel até agora)
+<br>
 
-## Contribuições
+# Contribuições
 
 | Integrante | RGM | Atividade realizada |
 |---|---|---|
@@ -43,4 +60,4 @@ dion:a nutricionista ainda não me respondeu pra realmente atualizar (fizemos o 
 | `dion` | `48076759` | Produção do HTML, host do código pelo Live Share, conexão efetiva com CSS e deploy |
 | `amauri` | `48317357` | Produção do JavaScript |
 | `daniel` | `47346388` | Produção do CSS e conexão efetiva com HTML |
-| `alison` | `removido` | Produção do JavaScript |
+| `alison` | `removido` | `removido` |
