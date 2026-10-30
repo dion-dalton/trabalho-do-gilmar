@@ -4,7 +4,8 @@
 (React, Angular, Vue, Bootstrap, etc.).
 
 - [X]   O sistema deve estar publicado e acessível em um serviço gratuito de
-hospedagem (ex.: GitHub Pages, Vercel ou Railway), com link de acesso público funcional.
+hospedagem (ex.: GitHub Pages, Vercel ou Railway), com link de acesso público funcional. 
+link: https://nutrifontes.netlify.app/
 
 - [X]   Dados Dinâmicos: Ausência de dados totalmente hardcoded onde fizer sentido, com
 manipulação dinâmica de dados via JavaScript (ex.: inclusão e alteração de estado na memória).
