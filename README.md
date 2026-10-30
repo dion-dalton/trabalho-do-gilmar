@@ -18,7 +18,6 @@ manipulação dinâmica de dados via JavaScript (ex.: inclusão e alteração de
 - [X]  Responsividade Básica: Layout adaptável que permita a navegação fluida em diferentes
 resoluções de tela.
 
-- [X] Envio do readme ao professor
 
 <div align="center">
 
