@@ -1,16 +1,16 @@
-/* NutriVida — versão simples, JavaScript puro */
+
 (function () {
   'use strict';
 
-  /* ===== CONFIGURAÇÃO: troque pelos dados reais do nutricionista ===== */
+
   var NUTRI = {
     name: 'Dr. Rodrigo Fontes',
     specialty: 'Nutrição clínica e esportiva',
-    phone: '552433655739',             // só números, com 55 + DDD
+    phone: '552433655739',            
     email: 'dr.rodrigofontes@gmail.com',
-    photo: 'nutricionista.png'         // arquivo na mesma pasta do index.html
+    photo: 'nutricionista.png'         
   };
-  var ESCONDER_CONTATO_ATE_CONFIGURAR = true; // some com os botões enquanto o telefone for o de exemplo
+  var ESCONDER_CONTATO_ATE_CONFIGURAR = true; 
 
   /* ===== Classificação do IMC ===== */
   var CATEGORIAS = [
