@@ -1,8 +1,6 @@
 
 (function () {
   'use strict';
-
-
   var NUTRI = {
     name: 'Dr. Rodrigo Fontes',
     specialty: 'Nutrição clínica e esportiva',
