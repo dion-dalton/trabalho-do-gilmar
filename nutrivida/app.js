@@ -10,7 +10,7 @@
   };
   var ESCONDER_CONTATO_ATE_CONFIGURAR = true; 
 
-  /* ===== Classificação do IMC ===== */
+  /*  Classificação do IMC  */
   var CATEGORIAS = [
     { max: 18.5, emoji: '🔵', label: 'Abaixo do peso', faixa: 'Menor que 18,5', ok: false,
       dica: 'Um IMC baixo pode ter várias causas. O nutricionista monta um plano para ganhar peso com saúde.' },
@@ -30,7 +30,7 @@
     return CATEGORIAS.filter(function (c) { return imc < c.max; })[0];
   }
 
-  /* ===== Utilitários ===== */
+  /*  Utilitários  */
   function $(s) { return document.querySelector(s); }
   function el(tag, attrs, html) {
     var n = document.createElement(tag);
@@ -55,7 +55,7 @@
   function guardar(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { alert('Não foi possível salvar neste navegador.'); } }
   function ler(k, padrao) { try { var v = localStorage.getItem(k); return v === null ? padrao : JSON.parse(v); } catch (e) { return padrao; } }
 
-  /* ===== Contas (simuladas no navegador) ===== */
+  /*  Contas (simuladas no navegador)  */
   var usuario = null;
   var registros = [];
 
@@ -144,7 +144,7 @@
     trocarAba('login');
   }
 
-  /* ===== Registros ===== */
+  /*  Registros  */
   function ordenados() {
     return registros.slice().sort(function (a, b) {
       return a.data === b.data ? b.criado - a.criado : (a.data < b.data ? 1 : -1);
@@ -185,7 +185,7 @@
     desenhar(maisRecente());
   }
 
-  /* ===== Telas ===== */
+  /*  Telas  */
   function desenhar(destaque) {
     desenharResultado(destaque);
     desenharHistorico();
@@ -321,7 +321,7 @@
     }).join('');
   }
 
-  /* ===== Início ===== */
+  /*  Início  */
   function iniciar() {
     desenharTabelaIMC();
     $('#aba-entrar').addEventListener('click', function () { trocarAba('login'); });
